@@ -1,0 +1,60 @@
+.title {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: #ea5354;
+}
+
+body {
+  background-image: url(./src/102135.jpg);
+}
+
+.boxbutton {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  border: none;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+  font-size: 1rem;
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+}
+
+li {
+  font-family: cursive;
+  font-size: 15px;
+}
+
+.kuroko {
+  height: 350px;
+}
+
+.image {
+  /*   height: 100%;
+  width: 100%;
+  object-fit: contain; */
+  width: auto;
+  max-height: 100%;
+  display: block;
+  margin: auto;
+}
+
+/* button {
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  padding: 2px 15px;
+  display: block;
+  margin: auto;
+} */
+
+b {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  display: block;
+  margin: auto;
+  color: #ff2470;
+}
