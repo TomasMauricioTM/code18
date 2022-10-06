@@ -1,0 +1,31 @@
+h1 {
+  color: chartreuse;
+}
+
+h2{
+  color: aqua;
+}
+
+.alumnos{
+  color: blueviolet;
+}
+
+table{
+  border: 2px solid red;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.ejer1{
+    border: 2px solid blue;
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+
+th,td{
+  border: 1px solid rebeccapurple;
+}
+th{
+  font-weight: bold;
+}

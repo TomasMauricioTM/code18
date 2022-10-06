@@ -1,0 +1,125 @@
+<<<<<<< HEAD
+.title {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: #ea5354;
+=======
+/* TITULO DE PAGINA */
+.title {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  color: #0d0e0d;
+>>>>>>> bce5994 (g)
+}
+
+body {
+  background-image: url(./src/102135.jpg);
+}
+
+<<<<<<< HEAD
+.boxbutton {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  border: none;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+  font-size: 1rem;
+=======
+a {
+  text-decoration: none;
+  color: #7e1e79;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* CAJA DE BOTONES */
+.box {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  border: none;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  font-size: 4rem;
+>>>>>>> bce5994 (g)
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+}
+
+<<<<<<< HEAD
+li {
+  font-family: cursive;
+  font-size: 15px;
+}
+
+.kuroko {
+  height: 350px;
+}
+
+.image {
+  /*   height: 100%;
+  width: 100%;
+  object-fit: contain; */
+=======
+/* BOTONES */
+button {
+  text-decoration: none;
+  padding: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: helvetica;
+  font-weight: 300;
+  font-size: 23px;
+  font-style: italic;
+
+  background-color: #e4e493;
+  border-radius: 15px;
+  border: 3px double #ffffff;
+}
+
+/* CAJA DE IMAGEN */
+.kuroko {
+  height: 500px;
+}
+
+/* IMAGEN */
+.image {
+>>>>>>> bce5994 (g)
+  width: auto;
+  max-height: 100%;
+  display: block;
+  margin: auto;
+}
+
+<<<<<<< HEAD
+/* button {
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  padding: 2px 15px;
+  display: block;
+  margin: auto;
+} */
+
+b {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  display: block;
+  margin: auto;
+  color: #ff2470;
+=======
+/* PIE DE PAGINA */
+b {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+  display: block;
+  margin: auto;
+  color: #ff2470;
+  padding: 70px;
+>>>>>>> bce5994 (g)
+}
