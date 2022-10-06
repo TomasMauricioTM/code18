@@ -21,19 +21,17 @@ a {
   display: block;
   width: 100%;
   padding: 8px;
-  
+
   margin-bottom: 20px;
   box-sizing: border-box;
   font-size: 4rem;
   text-align: center;
   text-decoration: none;
-  
 }
 
 /* BOTONES */
 button {
-  
- /*  padding: 4px;
+  /*  padding: 4px;
   padding-left: 10px;
   padding-right: 10px;
   font-family: helvetica;
@@ -46,16 +44,15 @@ button {
   border-color: #ffffff;
    */
 
-    background-color: #ffffff; /* Green */
-    border: none;
-    color: white;
-    padding: 7px 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 14px;
-    border-radius: 100px;
-  
+  background-color: #ffffff; /* Green */
+  border: none;
+  color: white;
+  padding: 7px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 100px;
 }
 
 /* CAJA DE IMAGEN */
@@ -82,3 +79,7 @@ b {
   /* padding: 90px; */
   margin-top: 370px;
 }
+
+/* NUEVO */
+
+
