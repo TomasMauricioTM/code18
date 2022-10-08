@@ -1,16 +1,25 @@
 /* HEADER */
 
-/* .wrap {
-  margin: 20px;
-} */
+.wrap {
+  position: relative;
+  z-index: 1;
+  top: 80px;
+  width: 100%;
+}
 
 .header {
   background-color: #00af1c;
-  padding: 0.5em;
+  padding: 25px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  /* a */
+  position: fixed;
+  width: 100%;
+  top: -1%;
 }
+
+/* FALTA TERMINAR EL HEADER */
 
 .header ul {
   display: flex;
@@ -80,6 +89,28 @@
 .servicios div img {
   margin-left: 20px;
 }
+
+/* lista servicios */
+.servicios ul li {
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.s1 {
+  color: #9d15eb;
+}
+.s2 {
+  color: #838085;
+}
+.s3 {
+  color: #1c7710;
+}
+.s4 {
+  color: #a38e13;
+}
+
+/* FALTA TERMINAR................................. */
+
 
 /* PROTAFOLIO*/
 .portafolio h2 {

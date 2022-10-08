@@ -1,0 +1,83 @@
+.texto {
+  animation-name: texto-volador;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  border: solid;
+}
+
+@keyframes texto-volador {
+  from {
+    margin-left: 100%;
+    width: 350px;
+    background-color: aqua;
+    border: none;
+  }
+  to {
+    margin-left: -100%;
+    background-color: brown;
+  }
+}
+
+.bart{
+    animation-name: image-resize;
+    animation-duration: 10s ;
+    animation-iteration-count: infinite;
+}
+
+@keyframes image-resize{
+    from{
+        width: 200px;
+        height: 100px;
+    }
+    to{
+        width: 400px;
+        height: 200px;
+    }
+}
+
+
+.box1{
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
+    animation-name: box-animation;
+  
+}
+
+@keyframes box-animation{
+    0%{
+        background-color: black;
+    }
+    25%{
+        background-color: aqua;
+    }
+    50%{
+        background-color: blue;
+    }
+    100%{
+        background-color: green;
+    }
+}
+
+.bal1{
+    height: 100px;
+    width: 100px;
+    background-color: violet;
+    border-radius: 50%;
+    animation-name: ball-animation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes ball-animation{
+    from{
+     transform: translateY(0px);
+    }
+    to{
+        transform: translateY(-400px);
+    }
+}
+
+.textoanimado {
+  animation: texto-animado 5s steps(144) 1s normal both ;
+}
