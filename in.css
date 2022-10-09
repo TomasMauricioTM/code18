@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #E5B540;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+ 
+  width: 100%;
+position: fixed;
+top: 0;
+
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav ul li {
+  padding: 15px;
+}
+
+.nav ul li a {
+  text-decoration: none;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 10px 20px 1px;
+
+  /* padding: 50px; */
+}
+
+a{
+  color: #fff;
+}
+
+.title {
+  font-size: 2em;
+}
+
+.resume {
+  width: 45%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.btn-primary {
+  width: 180px;
+  background-color: rgb(224, 159, 39);
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  box-shadow: 0 15px 25px gray;
+  animation-name: boton-volador;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes boton-volador {
+  from {
+    margin-left: 100%;
+  }
+  to {
+    margin-left: -0.7%;
+  }
+}
+.btn-primary:hover {
+  background-color: rgb(66, 226, 238);
+  color: black;
+  font-weight: bold;
+}
+
+.img-p {
+  border-radius: 50%;
+}
+
+.title-t {
+  
+  margin-left: 20rem;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 3rem;
+}
+
+.card div {
+  margin-left: 40px;
+}
+
+.card div img {
+  width: 20rem;
+  height: 180px;
+  border-radius: 8px;
+  box-shadow: 0 15px 25px;
+}
+
+.card div img:hover{
+ box-shadow: 0 25px 50px red;
+}
+
+
