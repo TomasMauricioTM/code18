@@ -1,0 +1,23 @@
+
+.gradiente-uno{
+    width: 300px;
+    height: 300px;
+    /* vamos iniciar don 2 colores */
+    background: linear-gradient(
+        360deg,
+        rgb(170, 127, 121),
+        rgb(78, 116, 151),
+        rgb(187, 159, 159),
+        rgb(224, 162, 162)
+
+    );
+    color: rgb(0, 0, 0);
+}
+
+.gradiente-dos{
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(to right bottom ,rgb(231, 146, 146),rgb(170, 127, 127),rgb(158, 212, 158),rgb(148, 148, 201));
+
+    color: rgb(0, 0, 0);
+}

@@ -1,25 +1,41 @@
 /* HEADER */
+/* * {
+  margin: 0;
+  padding: 0;
+} */
 
 .wrap {
   position: relative;
   z-index: 1;
-  top: 80px;
+  top: 70px;
   width: 100%;
 }
 
 .header {
   background-color: #00af1c;
-  padding: 25px;
+  /*  padding: 25px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* a */
+  
   position: fixed;
   width: 100%;
-  top: -1%;
+  top: -1%; */
+
+  display: flex;
+  justify-content: space-between;
+
+  width: 99%;
+  position: fixed;
+  top: 0;
+
+  /* right: 5px; */
 }
 
-/* FALTA TERMINAR EL HEADER */
+/* .header nav{
+  display: flex;
+ 
+} */
 
 .header ul {
   display: flex;
@@ -28,12 +44,13 @@
 .header li {
   margin-left: 1rem;
   list-style: none;
+  padding: 15px;
 }
 
 .header nav a {
   text-decoration: none;
   color: #fff;
-  font-size: 15px;
+  font-size: 11px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -42,6 +59,8 @@
   font-size: 25px;
   color: #fff;
   font-family: Arial, Helvetica, sans-serif;
+  margin-top: 25px;
+  margin-left: 20px;
 }
 
 /* HOME */
@@ -96,21 +115,20 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.s1 {
+.slist-uno {
   color: #9d15eb;
 }
-.s2 {
+.slist-dos {
   color: #838085;
 }
-.s3 {
+.slist-tres {
   color: #1c7710;
 }
-.s4 {
+.slist-cuatro {
   color: #a38e13;
 }
 
 /* FALTA TERMINAR................................. */
-
 
 /* PROTAFOLIO*/
 .portafolio h2 {
@@ -133,6 +151,24 @@
 
 .portafolio div img {
   margin-left: 20px;
+}
+
+.portafolio ul li {
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.plist-uno {
+  color: #1c7710;
+}
+.plist-dos {
+  color: #a38e13;
+}
+.plist-tres {
+  color: #9d15eb;
+}
+.plist-cuatro {
+  color: #838085;
 }
 
 /* CONTACTO*/

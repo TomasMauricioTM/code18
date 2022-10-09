@@ -5,17 +5,19 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #E5B540;
+
+  
+
 }
 
 .header {
   display: flex;
   justify-content: flex-end;
- 
-  width: 100%;
-position: fixed;
-top: 0;
 
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: rgb(10, 10, 10);
 }
 
 .nav ul {
@@ -31,6 +33,8 @@ top: 0;
   text-decoration: none;
 }
 
+/* aaaaaaaaaaaaaaa */
+
 .banner {
   display: flex;
   justify-content: space-around;
@@ -39,7 +43,7 @@ top: 0;
   /* padding: 50px; */
 }
 
-a{
+a {
   color: #fff;
 }
 
@@ -55,17 +59,17 @@ a{
 
 .btn-primary {
   width: 180px;
-  background-color: rgb(224, 159, 39);
+  background-color: rgb(39, 202, 107);
   color: rgb(255, 255, 255);
   border: none;
   padding: 15px;
   border-radius: 8px;
   cursor: pointer;
   font-size: 1rem;
-  box-shadow: 0 15px 25px gray;
+  /* box-shadow: 0 15px 25px gray; */
   animation-name: boton-volador;
   animation-duration: 5s;
-  animation-iteration-count: infinite;
+  animation-iteration-count: 1;
 }
 
 @keyframes boton-volador {
@@ -76,18 +80,18 @@ a{
     margin-left: -0.7%;
   }
 }
-.btn-primary:hover {
+/* .btn-primary:hover {
   background-color: rgb(66, 226, 238);
-  color: black;
+  color: rgb(255, 255, 255);
   font-weight: bold;
-}
+} */
 
 .img-p {
   border-radius: 50%;
+  
 }
 
 .title-t {
-  
   margin-left: 20rem;
 }
 
@@ -103,14 +107,12 @@ a{
 }
 
 .card div img {
-  width: 20rem;
-  height: 180px;
+  width: 400px;
+  height: 300px;
   border-radius: 8px;
   box-shadow: 0 15px 25px;
 }
 
-.card div img:hover{
- box-shadow: 0 25px 50px red;
+.card div img:hover {
+  box-shadow: 0 25px 50px rgb(39, 113, 161);
 }
-
-
