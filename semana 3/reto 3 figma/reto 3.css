@@ -1,0 +1,224 @@
+*{
+ margin: 0;
+  padding: 0;
+ 
+}
+
+
+
+.wrap{
+  margin: auto;
+}
+
+.cabecera{
+position: relative;
+
+}
+
+.cabecera h1,h2{
+  position: absolute;
+  color: rgb(239, 241, 241);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.cabecera h1{
+  top: 15%;
+  position: absolute;
+  left: 33%;
+  font-size: 40px;
+  
+}
+
+.cabecera h2{
+  bottom: 30%;
+  position: absolute;
+  left: 20%;
+  margin-bottom: 0;
+  text-align: left;
+ 
+}
+
+.cabecera figure img{
+  width: 100%;
+  display: block;
+}
+/* sobre mi */
+
+.sobre-mi{
+  /* display: flex; */
+  background-color: #7299fe;
+  padding: 30px 40px 70px 30px;
+
+   
+}
+
+.sobre-mi h3{
+  color: rgb(38, 179, 113);
+
+  font-size: 1,5rem;
+  margin-bottom: 20px;
+  margin-top: -25px;
+  font-size: 25px;
+ text-align: center;
+}
+
+
+.sobre-mi p{
+  color: azure;
+ 
+}
+
+.sobre-mi button{
+  font-size: 20px;
+  
+}
+
+/* MIS SKILLS */
+
+.skill{
+  /* display: flex; */
+  background-color: #9022ff;
+  padding: 30px 40px 70px 30px;
+
+   
+}
+
+/*  */
+
+/* .skill{
+   display: flex;
+  justify-content: space-around;
+ 
+} */
+
+.cj{
+  border-radius: 30%;
+  
+  width: 150px;
+  height: 20px;
+ background-color: azure;
+}
+
+.skill h3{
+  color: rgb(38, 179, 113);
+
+  font-size: 1,5rem;
+  margin-bottom: 20px;
+  margin-top: -25px;
+  font-size: 25px;
+ text-align: center;
+}
+
+
+.skill p{
+  color: azure;
+ 
+}
+
+.skills_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skills{
+    width: 40%;
+    margin-bottom: 20px;
+    margin-right: 30px;
+}
+.progress{
+    position: relative;
+    height: 20px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+.fondo{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 45%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: #57EFF9;
+}
+
+/* portafolio */
+.portafolio{
+  /* display: flex; */
+  background-color: #ffd233;
+  padding: 30px 40px 70px 30px;
+
+   
+}
+ .portafolio div{
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+ }
+.portafolio h3{
+  color: rgb(38, 179, 113);
+
+  font-size: 1,5rem;
+  margin-bottom: 20px;
+  margin-top: -25px;
+  font-size: 25px;
+ text-align: center;
+}
+
+
+
+
+/* cliente */
+.cliente{
+  /* display: flex; */
+  background-color: #3f4e62;
+  padding: 30px 40px 70px 30px;
+
+   
+padding: 70px;
+}
+
+.cliente div{
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.cliente h3{
+   color: rgb(52, 209, 21);
+
+  font-size: 1,5rem;
+  margin-bottom: 20px;
+  margin-top: -25px;
+  font-size: 25px;
+ text-align: center;
+ 
+}
+
+
+/* CONTACTO */
+.contacto{
+  /* display: flex; */
+  background-color: #1687a0;
+  padding: 30px 40px 70px 30px;
+
+   
+}
+
+.contacto h3{
+  color: rgb(216, 7, 7);
+
+  font-size: 1,5rem;
+  margin-bottom: 20px;
+  margin-top: -25px;
+  font-size: 25px;
+ text-align: center;
+}
+
+
+.contacto p{
+  color: azure;
+ 
+}

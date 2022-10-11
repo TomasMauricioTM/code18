@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: aqua;
+}
+
+.section-p {
+  display: flex;
+}
+
+.section-p div {
+  display: flex;
+  width: 500px;
+  height: 50px;
+  border: solid;
+}
+
+.box-one {
+  background-color: brown;
+}
+
+.box-two {
+  background-color: rgb(99, 34, 184);
+}
+
+.box-thre {
+  background-color: rgb(33, 159, 190);
+}
+
+@media only screen and (max-width :480px) {
+  body {
+    background-color: rgb(120, 228, 31);
+  }
+
+  .section-p div {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border: solid;
+  }
+
+  .section-p {
+    display: block;
+  }
+
+  .box-thre {
+    background-color: rgb(165, 29, 147);
+  }
+  bo.box-one {
+    background-color: rgb(229, 233, 15);
+  }
+}
+
+/* para tablets */
+
