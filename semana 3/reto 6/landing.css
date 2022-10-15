@@ -1,0 +1,180 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+ 
+  font-size: 12PX;
+}
+
+.principal{
+   background-image: url(src/bg-hero-desktop.svg);
+}
+
+.header{
+  
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.header img{
+  width: 15%;
+}
+
+.header button{
+  border-radius: 14px;
+background-color: rgb(248, 248, 248);
+
+ width: 10em;
+  height: 30px;
+font-size: 9px;
+  padding: 6px;
+}
+/*  */
+
+.caja{
+ 
+  display: flex;
+  justify-content: space-between;
+}
+
+.caja main{
+   
+  padding: 10px;
+}
+
+.caja img{
+  width: 50%;
+ 
+  padding: 40px;
+  
+}
+
+.caja button{
+  border-radius: 14px ;
+  background-color: rgb(253, 127, 226);
+  
+  color: azure;
+  width: 15em;
+  height: 30px;
+  font-size: 9px;
+  padding: 6px;
+}
+/*  */
+
+
+/* main{
+   border: solid;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+main img{
+  width: 50%;
+} */
+
+/* sectio */
+
+.parte-dos{
+  
+}
+
+.cj-uno{
+
+ 
+  display: flex;
+  justify-content: space-between;
+  
+  padding: 50px;
+  
+}
+
+
+.cj-uno section{
+   
+ 
+  padding: 10px;
+}
+
+.cj-uno img{
+  width: 50%;
+ 
+  padding: 40px;
+ 
+}
+
+/*  */
+
+.cj-dos{
+
+ 
+  display: flex;
+  justify-content: space-between;
+  
+  padding: 50px;
+  
+}
+
+.cj-dos section{
+ 
+  
+  
+}
+
+.cj-dos section{
+  
+ 
+  padding: 10px;
+}
+
+.cj-dos img{
+  width: 50%;
+ 
+  padding: 40px;
+ 
+}
+
+/*  */
+.cj-tres{
+
+
+  display: flex;
+  justify-content: space-between;
+  
+  padding: 50px;
+  
+}
+
+.cj-tres section{
+  
+  
+  
+}
+
+.cj-tres section{
+   
+ 
+  padding: 10px;
+}
+
+.cj-tres img{
+  width: 50%;
+ 
+  padding: 40px;
+  
+}
+
+/*  */
+.cj-parte-tres{
+  border: solid red;
+}
+
+.footer{
+ 
+  
+}

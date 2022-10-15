@@ -1,14 +1,15 @@
 /* HEADER */
-/* * {
+* {
   margin: 0;
   padding: 0;
-} */
+}
 
 .wrap {
   position: relative;
   z-index: 1;
   top: 70px;
   width: 100%;
+  
 }
 
 .header {
@@ -25,7 +26,7 @@
   display: flex;
   justify-content: space-between;
 
-  width: 99%;
+  width: 100%;
   position: fixed;
   top: 0;
 
@@ -39,6 +40,7 @@
 
 .header ul {
   display: flex;
+  
 }
 
 .header li {
@@ -52,6 +54,7 @@
   color: #fff;
   font-size: 11px;
   font-family: Arial, Helvetica, sans-serif;
+ 
 }
 
 .logo {
@@ -59,15 +62,24 @@
   font-size: 25px;
   color: #fff;
   font-family: Arial, Helvetica, sans-serif;
-  margin-top: 25px;
-  margin-left: 20px;
+  /* margin-top: 25px;
+  margin-left: 20px; */
+  padding: 20px;
+ 
 }
 
 /* HOME */
+.home{
+ 
+  padding: 25px;
+}
+
+
 .home h2 {
   margin: 15px;
   font-family: Arial, Helvetica, sans-serif;
   color: #9d15eb;
+  
 }
 
 .home p {
@@ -80,6 +92,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  
 }
 
 .home div img {
@@ -87,6 +100,11 @@
 }
 
 /* SERVICIOS */
+.servicios{
+ 
+  padding: 25px;
+}
+
 .servicios h2 {
   margin: 15px;
   font-family: Arial, Helvetica, sans-serif;
@@ -103,6 +121,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+
 }
 
 .servicios div img {
@@ -113,6 +132,8 @@
 .servicios ul li {
   font-size: 19px;
   font-family: Arial, Helvetica, sans-serif;
+  
+  
 }
 
 .slist-uno {
@@ -131,6 +152,11 @@
 /* FALTA TERMINAR................................. */
 
 /* PROTAFOLIO*/
+.portafolio{
+  
+  padding: 25px;
+}
+
 .portafolio h2 {
   margin: 15px;
   font-family: Arial, Helvetica, sans-serif;
